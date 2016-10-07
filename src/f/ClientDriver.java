@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import game.Clients;
 
 public class ClientDriver extends UnicastRemoteObject implements ClientInt {
-	
+	//some code of comment
 	Clients clients = null;
 	public ClientDriver() throws RemoteException {
 		clients = getClients();
