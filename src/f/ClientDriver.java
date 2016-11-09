@@ -22,6 +22,7 @@ public class ClientDriver extends UnicastRemoteObject implements ClientInt {
 		}
 		return clients;
 	}
+	//added some comments
 
 	@Override
 	public void addClient(String url) throws RemoteException {
